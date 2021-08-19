@@ -1,0 +1,241 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  /* Khi sử dụng font-size = 62.5% thì 1 rem sẽ tương đương với 10px*/
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: Gotham HTF Bold;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1560px;
+  height: 2400px;
+  background-color: #ffffff;
+  border: 1px solid #161616;
+  margin: 0px auto;
+}
+
+.grid {
+  width: 1440px;
+  height: 2350px;
+  margin: 60px auto 60px;
+  display: block;
+}
+
+.grid__row {
+  display: flex;
+  width: 100%;
+}
+
+.grid__full-width {
+  width: 100%;
+  height: 809px;
+  display: flex;
+  position: relative;
+}
+
+.grid__full-width--img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.grid__fifty-percent {
+  position: relative;
+  background-color: rebeccapurple;
+  width: 100%;
+}
+
+.grid__fifty-percent-item {
+  display: flex;
+  position: relative;
+}
+
+.grid__fifty-percent--img {
+  width: 100%;
+  z-index: 1;
+}
+
+.grid__twenty-percent-item {
+  display: flex;
+  position: relative;
+}
+
+.grid__twenty-percent--img {
+  width: 100%;
+}
+
+.text__content {
+  margin: 370px 210px;
+  font-size: 45px;
+  line-height: 32px;
+  color: #fefefe;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+  position: absolute;
+  z-index: 2;
+}
+
+.text__content-hamsa {
+  margin: 290px 200px;
+  font-size: 40px;
+  line-height: 32px;
+  color: #fefefe;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+  position: absolute;
+  z-index: 2;
+}
+
+.hamsa_1 {
+  text-align: center;
+}
+
+.category-list {
+  list-style: none;
+  font-size: 9.735px;
+  font-family: "GothamHTF";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 3.287;
+  position: absolute;
+  left: 50.622px;
+  top: 150.22px;
+  z-index: 2;
+}
+
+.category-item {
+}
+
+.category-item__link {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 4px;
+  line-height: 47px;
+  color: #000000;
+  font-family: "Gotham HT F";
+}
+
+.content {
+  font-size: 60px;
+  letter-spacing: 7px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+  margin: 400px auto 0;
+  z-index: 2;
+}
+
+.tag__content {
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 57px;
+  color: #000000;
+  font-family: "Gotham HT F";
+  text-align: center;
+}
+
+.grid__list-item {
+  display: flex;
+}
+
+.grid__list-item--icon {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.sale__off {
+  font-size: 17px;
+  line-height: 57px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+}
+
+.grid__list-item--customer {
+  width: 50%;
+  position: relative;
+}
+
+.search {
+  display: flex;
+}
+.search__bar {
+  background-color: #ffffff;
+  width: 60%;
+  height: 35px;
+  margin-right: 5px;
+  border: 1px solid #161616;
+}
+
+.search__btn {
+  background-color: #000000;
+  border: 1px solid #161616;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+}
+
+.icon {
+  width: 60%;
+  height: 30px;
+}
+
+.icon__item {
+  margin-top: 2px;
+}
+
+.customer__care-list {
+  list-style: none;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.customer__care {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.customer__care-item {
+  font-size: 13px;
+  color: #302c2c;
+  font-weight: bold;
+  font-family: "Gotham HT F";
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 180px;
+  width: 100%;
+  display: flex;
+}
+
+.footer__list {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  margin-left: 350px;
+}
+
+.footer__item {
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-right: 10px;
+  color: #000000;
+  font-family: "Gotham HT F";
+}
